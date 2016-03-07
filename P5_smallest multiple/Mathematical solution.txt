@@ -1,2 +1,12 @@
+2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 
-1*2*3*5*7*3*11*2*13*2*2*17*19
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+
+First we start with 1*2*3*…..*19*20
+then express everything in prime and get rid of the ones that are redundant, this way we can get the smallest multiple
+
+1*2*3*(2*2)*5*(2*3)*7*(2*2*2)…*19*(2*2*5)
+
+
+1*2*3*2*5*7*2*3*11*13*2*17*19
+= 232792560

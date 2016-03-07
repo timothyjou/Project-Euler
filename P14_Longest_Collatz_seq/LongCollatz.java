@@ -16,7 +16,7 @@ public class LongCollatz {
 //
 //    NOTE: Once the chain starts the terms are allowed to go above one million.
 
-    // this method takes about O(n^2) due to the nested loops
+    //  O(n^2) due to the nested loops
     public static void main(String[] args){
         int i = 2;
         int threshold = 1000000;

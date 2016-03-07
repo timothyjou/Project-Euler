@@ -9,6 +9,7 @@ import java.util.List;
 // we get 3, 5, 6 and 9. The sum of these multiples is 23.
 //Find the sum of all the multiples of 3 or 5 below 1000.
 public class multiples35 {
+    // O(n)
     public static void main(String[] argsv){
         int upper = 1000;
         List<Integer> multiple3= new ArrayList<Integer>();
